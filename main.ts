@@ -1,0 +1,32 @@
+scene.setBackgroundColor(10)
+effects.confetti.startScreenEffect()
+pause(3000)
+game.setDialogFrame(img`
+    ..bbabbaabbaabbaabbbbb..
+    .bddbaddbaddbaddbabbddb.
+    addddbaddbaddbaddbadddda
+    addddbbaabbaabbaabbdddda
+    abddb11111111111111bddba
+    bbab1111111111111111bbab
+    babb1111111111111111badb
+    abda1111111111111111adda
+    adda1111111111111111adba
+    bdab1111111111111111bbab
+    babb1111111111111111badb
+    abda1111111111111111adda
+    adda1111111111111111adba
+    bdab1111111111111111bbab
+    babb1111111111111111badb
+    abda1111111111111111adda
+    adda1111111111111111adba
+    bdab1111111111111111bbab
+    babb1111111111111111babb
+    abddb11111111111111bddba
+    addddbbaabbaabbaabbdddda
+    addddabddabddabddabdddda
+    .addbbabddabddabddabdda.
+    ..aaabbaabbaabbaabbaaa..
+    `)
+game.setDialogTextColor(15)
+game.showLongText("Welcome to my game!", DialogLayout.Bottom)
+music.baDing.play()
